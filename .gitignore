@@ -1,0 +1,28 @@
+# ---- scrcpy distribution (download from the official release, do NOT commit) ----
+adb.exe
+AdbWinApi.dll
+AdbWinUsbApi.dll
+scrcpy.exe
+scrcpy-server
+scrcpy-noconsole.vbs
+scrcpy.png
+disconnected.png
+open_a_terminal_here.bat
+LICENSE.txt
+SDL3.dll
+libusb-1.0.dll
+avcodec-*.dll
+avformat-*.dll
+avutil-*.dll
+swresample-*.dll
+*.dll
+
+# ---- app runtime / user data ----
+recordings/
+screenshots/
+phoneconnect.config.json
+
+# ---- build / scratch ----
+_*.ps1
+_*.cs
+*.pdb
