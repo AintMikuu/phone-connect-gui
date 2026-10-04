@@ -1,0 +1,8 @@
+# Normalize line endings; treat binaries correctly
+* text=auto
+*.cs    text
+*.ps1   text
+*.md    text
+*.js    text
+*.exe   binary
+*.ico   binary
